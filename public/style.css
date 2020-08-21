@@ -1,0 +1,87 @@
+* {
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: 'Source Code Pro', monospace;
+}
+body {
+  background: url("https://cdn.glitch.com/94b58ac6-7dae-423d-becd-3c757e9d5bcd%2Fmetric.jpeg?v=1597946686796");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#background {
+    background: rgba(45, 107, 239, .5);
+
+  width: 95vw;
+  height: 100vh;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  text-align: center;
+}
+h1 {
+  font-size: 2rem;
+}
+header {
+  background: rgba(191, 207, 242,.75);
+  padding: .5rem;
+}
+#example-usage {
+  line-height: 1.4;
+  padding: .5rem;
+  width: 80%;
+  background: rgba(191, 207, 242,.75);
+  margin-top: .5rem;
+}
+form {
+  margin: .5rem auto;
+}
+#convertField {
+  padding: .5rem;
+  border: 0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  outline: 0;
+  width:30%;
+}
+#convert {
+  padding: .5rem;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  outline: 0;
+  min-width:20%;
+}
+#convert:hover {
+  cursor: pointer;
+  color: rgb(45, 107, 239);
+}
+#userstories-link {
+  margin: 1rem 0;
+}
+
+
+#userstories {
+   background: rgba(191, 207, 242,.8);
+   font-size: 1.75rem;
+   padding:  1rem;
+   width: 85%;
+   margin: 0 auto;
+   line-height: 1.6rem;
+}
+#home-link:visited {
+  color: blue;
+}
+#stories-title {
+  font-weight: 900;
+  font-size: 2rem;
+}
+#result-container {
+  min-height: 2rem;
+  width: 100%;
+  line-height: 1.2;
+  padding-top: .2rem;
+  background: rgba(191, 207, 242,.75);
+}
